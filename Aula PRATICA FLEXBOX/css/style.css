@@ -10,7 +10,59 @@ html,body{
 }
 
 header{
-    height: 96%;
+    height: 72px;
     width: 100%;
-    background-color: red;
+
+    background-color: #040404;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav{
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 8px 24px;
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-logo{
+    width: 48px;
+    height: 48px;
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+.nav-menu{
+    list-style: none;
+
+    display: flex;
+}
+
+.nav-item{
+    margin: 0px 16px;
+}
+
+.nav-link{
+    display: inline-block;
+
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #222;
+    transition: .7s ease;
+}
+
+.nav-link:hover{
+    opacity: 0.8;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    border: 1px solid red
 }
