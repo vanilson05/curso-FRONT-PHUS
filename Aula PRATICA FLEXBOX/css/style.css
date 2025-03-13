@@ -7,6 +7,7 @@
 html,body{
     width: 100%;
     height: 100vh;
+    background-color: #373737;
 }
 
 header{
@@ -24,7 +25,7 @@ header{
     margin: 0 auto;
     width: 100%;
     padding: 8px 24px;
-    background-color: green;
+    background-color: #222;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,7 +41,6 @@ header{
 
 .nav-menu{
     list-style: none;
-
     display: flex;
 }
 
@@ -53,7 +53,7 @@ header{
 
     padding: 8px 16px;
     text-decoration: none;
-    color: #222;
+    color: #ccc;
     transition: .7s ease;
 }
 
@@ -64,5 +64,38 @@ header{
 .container{
     max-width: 1440px;
     margin: 0 auto;
-    border: 1px solid blue
+    border: 1px solid;
+    display: flex;
+    color: #ccc;
 }
+
+ .container-itm-1{
+    flex: 6 1 auto;
+    margin-right: 8px;
+    background-color: #222;
+
+    }
+
+.video-main{
+    background-color: #ccc;
+    height: 340px;
+    border-radius: 10px;
+    margin: 5px 8px;
+    width: 100%;
+}
+
+.container-itm-2{
+        flex: 1 1 auto;
+        margin-left: 8px;
+        background-color: #2a2727;
+ }
+
+ .h3{
+    line-height: 130%;
+    margin: 4px 0px;
+    color: white;
+ }
+
+ p{
+    color:#777;
+ }
