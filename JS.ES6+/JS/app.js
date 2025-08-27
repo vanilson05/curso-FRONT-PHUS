@@ -1,5 +1,7 @@
-let numero = 2;
+let idade = 16;
 
-for (let i = 1; i <= 10; i++) {
-console.log(numero + "x" + i + " = " + (numero * i));
+if (idade >= 18) {
+  console.log("Pode votar!");
+} else {
+  console.log("Não pode votar ainda.");
 }
