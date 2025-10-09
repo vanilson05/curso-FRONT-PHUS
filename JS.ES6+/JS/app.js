@@ -1,7 +1,7 @@
-let idade = 16;
+let amigos = ["jeferson", "joelson", "rai" , "carlos"];
 
-if (idade >= 18) {
-  console.log("Pode votar!");
-} else {
-  console.log("Não pode votar ainda.");
+for (let i = 0; i < amigos.length; i++) {
+    console.log(`${amigos[i]} é meu amigo número ${i + 1}`);
 }
+
+
